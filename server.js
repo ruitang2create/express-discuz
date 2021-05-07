@@ -14,7 +14,7 @@ const port = 8000;
 
 const app = express();
 app.use(cors({
-  origin: ["http://47.253.42.84:3000", "http://localhost:3000", "http://192.168.100.108:3000","http://en.canadaasians.com", "http://test.ruitang.com"],
+	origin: ["https://3.139.237.81/", "http://test.ruitangcs.com", "https://www.wpgnewlife.com", "http://3.139.237.81/"],
   methods: ["GET", "POST"],
   credentials: true,
 }));
